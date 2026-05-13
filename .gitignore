@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Build / Cache
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# FAISS Vector Database
+# =========================
+app/data/faiss_index/
+
+# =========================
+# Temporary Test Files
+# =========================
+test.py
+test2.py
+project_dump.txt
+
+# =========================
+# Node (if added later)
+# =========================
+node_modules/
+
+# =========================
+# Pytest
+# =========================
+.pytest_cache/
+
+# =========================
+# Mypy / Ruff / Coverage
+# =========================
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/

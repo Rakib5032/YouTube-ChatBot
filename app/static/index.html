@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YouTube RAG Chatbot</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+
+            <h1>YouTube RAG Chatbot</h1>
+
+            <p>
+                Chat with any YouTube video using AI
+            </p>
+
+        </div>
+
+        <!-- URL SECTION -->
+        <div class="url-section">
+
+            <input type="text" id="youtube-url" placeholder="Paste YouTube URL here...">
+
+            <button id="process-btn">
+                Process Video
+            </button>
+
+        </div>
+
+        <!-- STATUS -->
+        <div id="video-status" class="video-status">
+
+            No video loaded
+
+        </div>
+
+        <!-- CHAT AREA -->
+        <div class="chat-container" id="chat-container">
+
+            <!-- <div class="message ai-message">
+
+                Hello 👋 Paste a YouTube URL to begin.
+
+            </div> -->
+
+        </div>
+
+        <!-- INPUT -->
+        <div class="input-section" id="input-section" style="display: none;">
+
+            <textarea id="question-input" placeholder="Ask about the video..."></textarea>
+
+            <button id="send-btn">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
