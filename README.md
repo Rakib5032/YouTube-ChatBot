@@ -72,10 +72,11 @@ app/
 │
 ├── static/
 │   ├── style.css
-│   └── script.js
+│   └── script.js'
+|   └── index.html
 │
 ├── templates/
-│   └── index.html
+│   
 │
 └── data/
     └── faiss_index/
@@ -121,93 +122,6 @@ LLM
 Answer
 ```
 
----
-
-# Installation
-
-## 1. Clone Repository
-
-```bash
-git clone <your-repository-url>
-cd youtube-rag-chatbot
-```
-
----
-
-## 2. Create Virtual Environment
-
-### Windows
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-### Linux / Mac
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
----
-
-## 3. Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-# Required Packages
-
-```bash
-pip install fastapi
-pip install uvicorn
-pip install python-dotenv
-pip install youtube-transcript-api
-pip install langchain
-pip install langchain-openai
-pip install langchain-community
-pip install langchain-text-splitters
-pip install faiss-cpu
-```
-
----
-
-# Environment Variables
-
-Create a `.env` file:
-
-```env
-OPENAI_API_KEY=your_api_key
-OPENAI_BASE_URL=your_base_url
-```
-
-Example:
-
-```env
-OPENAI_API_KEY=sk-xxxxx
-OPENAI_BASE_URL=https://openrouter.ai/api/v1
-```
-
----
-
-# Run The Project
-
-```bash
-uvicorn app.main:app --reload
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8000
-```
-
----
-
 # API Endpoints
 
 ## Process Video
@@ -244,7 +158,6 @@ POST /ask
 
 # Example Questions
 
-* What is the video about?
 * Summarize the video
 * What does the speaker say about manipulation?
 * What is the main topic?
@@ -291,4 +204,4 @@ This project is for educational and portfolio purposes.
 
 # Author
 
-Rakib Bhuiyan
+Rakibul Haque Rabbi
