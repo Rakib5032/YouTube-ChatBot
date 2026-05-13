@@ -10,6 +10,8 @@ This project allows users to:
 * Store embeddings in a FAISS vector database
 * Ask questions about the video using semantic retrieval + LLM reasoning
 
+![alt text](image.png)
+
 ---
 
 # Features
